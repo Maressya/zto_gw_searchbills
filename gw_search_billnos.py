@@ -60,8 +60,8 @@ crawl_date = datetime.datetime.now().strftime('%Y_%m_%d')
 print('爬取时间：'+crawl_date)
 crawl_datetime = time.strftime('%Y/%m/%d %H:%M:%S ',time.localtime(time.time()))
 print("当前时间： ",crawl_datetime)
-tab_name = 'datawork_zt_gw_all_body_orc'
-db_ora = cx_Oracle.connect('ermis/p8Ih3Jt4@10.54.121.252/gskfdb')
+tab_name = 'table_name'
+db_ora = cx_Oracle.connect('username/password@ip/token')
 cursor = db_ora.cursor()
 
 
